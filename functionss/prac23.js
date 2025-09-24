@@ -1,8 +1,9 @@
 
 // 3. Sum of all numbers in an array
 function sumArray(arr) {
-  return arr.reduce((acc, num) => acc + num, 0);
+  return arr.reduce((acc, val) => acc + val, 0);
 }
+
 console.log(sumArray([1, 2, 3, 4, 5])); // Output: 15
 
 // Start: acc = 0
